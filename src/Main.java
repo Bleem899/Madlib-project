@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
-        System.out.println("This is the world's worst bedtime story!!\n");
+        System.out.println("\nThis is the world's worst bedtime story!!\n");
 
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter a place: ");
@@ -14,21 +14,21 @@ public class Main {
         String femaleCelebrity = scanner.nextLine();
         System.out.println("Enter a body part: ");
         String bodyPart1 = scanner.nextLine();
-        System.out.println("Enter a body part: ");
+        System.out.println("Enter another body part: ");
         String bodyPart2 = scanner.nextLine();
         System.out.println("Enter a human organ: ");
         String humanOrgan = scanner.nextLine();
-        System.out.println("Enter an adjective: ");
+        System.out.println("Enter another adjective: ");
         String adjective2 = scanner.nextLine();
         System.out.println("Enter a male celebrity: ");
         String maleCelebrity = scanner.nextLine();
-        System.out.println("Enter an adjective: ");
+        System.out.println("Enter another adjective: ");
         String adjective3 = scanner.nextLine();
-        System.out.println("Enter a body part: ");
+        System.out.println("Enter another body part: ");
         String bodyPart3 = scanner.nextLine();
-        System.out.println("Enter a body part: ");
+        System.out.println("Enter another body part: ");
         String bodyPart4 = scanner.nextLine();
-        System.out.println("Enter a place: ");
+        System.out.println("Enter another place: ");
         String place2 = scanner.nextLine();
         System.out.println("Enter a celebrity: ");
         String celebrity = scanner.nextLine();
@@ -37,14 +37,14 @@ public class Main {
         System.out.println("Enter a verb: ");
         String verb = scanner.nextLine();
         System.out.println("Enter a number: ");
-        int number = scanner.nextInt();
-        System.out.println("Enter a body part: ");
+        String number = scanner.nextLine();
+        System.out.println("Enter another body part: ");
         String bodyPart5 = scanner.nextLine();
-        System.out.println("Enter an adjective: ");
+        System.out.println("Enter another adjective: ");
         String adjective4 = scanner.nextLine();
-        System.out.println("Enter an adjective: ");
+        System.out.println("Enter another adjective: ");
         String adjective5 = scanner.nextLine();
-        System.out.println("Enter an past-tense verb: ");
+        System.out.println("Enter a past-tense verb: ");
         String pastTenseVerb = scanner.nextLine();
 
         System.out.println("Once upon a time, in a place called " + place1 + ", there was a " + adjective1 +
