@@ -47,13 +47,13 @@ public class Main {
         System.out.println("Enter a past-tense verb: ");
         String pastTenseVerb = scanner.nextLine();
 
-        System.out.println("Once upon a time, in a place called " + place1 + ", there was a " + adjective1 +
-                " princess named " + femaleCelebrity + ". Her kingdom was huge, but her " + bodyPart1 + " was bigger. " +
-                "She was beautiful from her " + bodyPart2 + " to her " + humanOrgan + ". One day she saw a " + adjective2 +
-                " prince named " + maleCelebrity + ". He had a " + adjective3 + " face. As soon as his " + bodyPart3 +
-                " touched her " + bodyPart4 + " they fell in love. They got married at " + place2 + " the following day.\n" +
-                "Not long after, they had a baby. They decided to call him/her " + celebrity + ". He/She looked like a " +
-                animal + ". He/She used to " + verb + number + " times a day so that his/her " + bodyPart5 + " would be " +
-                adjective4 + " and " + adjective5 + ". Andy they " + pastTenseVerb + " happily ever after!");
+        System.out.println("Once upon a time, in a place called " + place1 + ", \nthere was a " + adjective1 +
+                " princess named " + femaleCelebrity + ". \nHer kingdom was huge, but her " + bodyPart1 + " was bigger.\n" +
+                "She was beautiful from her " + bodyPart2 + " to her " + humanOrgan + ". \nOne day she saw a " + adjective2 +
+                " prince named " + maleCelebrity + ". \nHe had a " + adjective3 + " face. As soon as his " + bodyPart3 +
+                " \ntouched her " + bodyPart4 + " they fell in love. \nThey got married at " + place2 + " the following day.\n" +
+                "Not long after, they had a baby. They decided \nto call him/her " + celebrity + ". \nHe/She looked like a " +
+                animal + ". \nHe/She used to " + verb + " " + number + " times a day so that \nhis/her " + bodyPart5 + " would be " +
+                adjective4 + " and " + adjective5 + ". \nAnd they " + pastTenseVerb + " happily ever after!");
     }
 }
